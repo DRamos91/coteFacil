@@ -1,0 +1,12 @@
+develop - nome do repositorio original
+
+$ git checkout develop - branch com o arquivo original
+$ git checkout -b correcaoDoErro - branch criada para corregir o erro
+
+$ git checkout develop
+$ git merge --no-ff correcaoDoErro - após o arquivo ser modificado, fazer um merge da Branch correcaoDoErro para develop.
+
+$ git branch -d correcaoDoErro - exclua a branch criada para corrigir o problema.
+
+$ git push origin develop - comando para atualizar o repositório remoto.
+
